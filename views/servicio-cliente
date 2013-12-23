@@ -1,0 +1,49 @@
+<!-- Main Wrapper -->
+			<div id="main-wrapper">
+
+				<!-- Main -->
+					<div id="main" class="container">
+						<div class="row">
+						
+							<!-- Content -->
+								<div id="content" class="12u skel-cell-mainContent">
+
+									<!-- Post -->
+										<article class="is-post product">
+											<header>
+												<h2 class="center"> <strong>SERVICIO </strong>AL CLIENTE </h2>
+											</header>
+											<span class="image image-full"><img src="{path}images/expertos.jpg" alt="" /></span>
+											
+                                            <p>El área de Servicio Técnico de SecuritySat, cuenta con personal altamente                                            calificado para asistir telefónicamente o en terreno los problemas que Ud. requiere                                            resolver.</p> 
+                                            <p>Aquellos clientes con contrato menor a un año, SecuritySat entrega garantía                                            total sobre sus instalaciones y equipos suministrados, por desperfectos no ocasionados                                            por terceros.</p>
+                                            <p>Solicite Asistencia Técnica Telefónica al 600 600 5100 si Ud. requiere:                                            capacitación sobre la operación, configuración o resolución de inquietudes respecto a                                            su sistema de alarmas.</p>
+                                            <p>A través de esta orientación telefónica, Ud. puede solicitar una visita técnica en                                            terreno de ser necesario.</p>
+                                            <p>Adicionalmente, Ud. también podrá ser asesorado por un especialista para su                                            proyecto de seguridad integral en su domicilio particular, empresa o comunidad.</p>
+                                            
+                                            <h5>¿Dónde puedo pagar facturas y boletas?</h5>
+                                            <p>Para cancelar sus boletas lo puede realizar en Servipag, Banco BCI, Transferencia                                             Bancaria o pago con Tarjeta de Crédito.</p>
+                                            <p>En caso de transferencia electrónica, realizar a nombre de Seguridad y                                             Telecomunicaciones S.A., Rut 96.936.470-0, cuenta Banco BCI N°10466622.</p>
+                                            
+                                            <h5>¿Dónde están ubicadas las oficinas de SecuritySat en Santiago? ¿Son las únicas?</h5>
+                                            <p>En Santiago contamos con una sucursal que se encuentra ubicada en Av. Las Condes                                             7300, comuna de Las Condes.</p>
+                                            
+                                            <h5>¿Qué bancos están adheridos al convenio de pago automático o PAC?</h5>
+                                            <p>Los Bancos que se encuentran adheridos a pago automático son: BBVA, Santander,                                            Santander Banefe, Scotiabank, Banco del Desarrollo, la única entidad bancaria con la                                            que no existe convenio es BancoEstado.</p>
+                                            
+                                            <h5>¿El contrato de SecuritySat considera seguro de cesantía?</h5>
+                                            <p>Nuestra Empresa cuenta con un seguro de cesantía el que se hace válido siempre y                                            cuando cliente se encuentre al día en sus pagos, sólo debe presentar su finiquito de                                            trabajo y se otorgarán 3 meses de suspensión en los pagos, pero continuamos                                             monitoreando el domicilio del cliente.</p>
+                                            
+                                            <h5>¿Con qué frecuencia puedo realizar pruebas con una ejecutiva en línea?</h5>
+                                            <p>Nuestro cliente puede realizar pruebas en línea cada vez que su sistema de alarmas                                            se encuentre con problemas o si solamente desea verificar que este se encuentre                                            funcionando bien.</p>
+                                            
+                                            
+                                          
+										</article>
+								
+								</div>
+								
+						</div>
+					</div>
+
+			</div>

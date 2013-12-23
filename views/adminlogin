@@ -1,0 +1,18 @@
+  <!-- Modal -->
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" style="z-index:99999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Inicio sesión adminstrador</h4>
+        </div>
+        <div class="modal-body">
+            <form method="post" action='' id="adminLoginForm" name="login_form">
+              <p><input type="text" id="loginUsername" class="span3" name="eid" id="email" placeholder="Nombre de usuario"></p>
+              <p><input type="password" id="loginPasswd" class="span3" name="passwd" placeholder="Contraseña"></p>
+              <p><button type="submit" class="btn btn-primary">Iniciar sesión</button></p>
+            </form>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->

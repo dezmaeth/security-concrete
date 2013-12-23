@@ -1,0 +1,51 @@
+  <!-- Modal -->
+  <div class="modal fade" id="modalArticle" tabindex="-1" style="z-index:99999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Articulos</h3>
+        </div>
+        <div class="modal-body">
+            <form method="post" action='' id="adminLoginForm" name="login_form">
+              <p>
+                <img src="" id="imgArticle" width="200" style="max-width:250px;max-height:250px;" />
+              </p>
+              <p>
+                <input type="file" id="imgArticleUpload" class="uploader" />
+              </p>
+
+              <p>
+                <h3>URL</h3>
+                <span>{path}articulo/</span><input type="text" id="urlArticle" style="width:300px"/>
+              </p>
+              <p>
+                <h3>Tipo</h3>
+                <select>
+                  <option value="featured">featured</option>
+                  <option value="sidebar">sidebar</option>
+                  <option value="highlighted">highlighted</option>
+                </select>
+              </p>
+              <p>
+                <h3>Titulo</h3>
+                <textarea id="titleTextArticle" class="tinymce"></textarea>
+              </p>
+              <p>
+                <h3>Intro</h3>
+                <textarea id="introTextArticle" class="tinymce"></textarea>
+              </p>
+              <p>
+                <h3>Articulo</h3>
+                <textarea id="mainTextArticle" class="tinymce"></textarea>
+              </p>
+              
+              <p>
+                <button id="saveArticleBtn" class="btn btn-success">Guardar</button>
+              </p>
+
+            </form>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->

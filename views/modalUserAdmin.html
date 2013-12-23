@@ -1,0 +1,32 @@
+  <!-- Modal -->
+  <div class="modal fade" id="modalAdminUser" tabindex="-1" style="z-index:99999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Articulos</h3>
+        </div>
+        <div class="modal-body">
+            <form method="post" action=''>
+              <p>
+                <h3>Adminitradores</h3>
+                <select id="adminList">
+                  <option value="">Seleccione para editar un administrador</option>
+                </select>
+              </p>
+              <input type="hidden" id="idAdmin" />
+              <p>
+                <h3>Usuario</h3>
+                <input type="text" id="usernameAdmin" />
+              </p>              <p>
+                <h3>Contraseña</h3>
+                <input type="password" id="passwordAdmin" />
+              </p>
+              <p>
+                <button id="saveAdminUserBtn" class="btn btn-success">Guardar</button>
+              </p>
+            </form>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->

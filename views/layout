@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SECURITY SAT - SEGURIDAD DE EXPERTOS</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=1040" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="{path}js/jquery.min.js"></script>
+		<script src="{path}js/jquery.dropotron.js"></script>
+		<script src="{path}js/config.js"></script>
+		<script src="{path}js/skel.min.js"></script>
+		<script src="{path}js/skel-panels.min.js"></script>
+		<script src="{path}js/bootstrap.min.js"></script>
+		<script src="{path}js/tinymce/tinymce.min.js"></script>
+		<script src="{path}js/jquery.html5.fileupload.js"></script>
+		<!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+		<link rel="stylesheet" href="{path}css/bootstrap.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<!-- Latest compiled and minified JavaScript -->
+		<noscript>
+			<link rel="stylesheet" href="{path}css/skel-noscript.css" />
+			<link rel="stylesheet" href="{path}css/style.css" />
+			<link rel="stylesheet" href="{path}css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body class="homepage" class="no-sidebar">
+		<!-- Header Wrapper -->
+
+		<div id="header-wrapper">
+					
+			<!-- Header -->
+				<div id="header" class="container">
+					<!-- Logo -->
+						<h1 id="logo">
+							<img src="{path}images/logo-chico.jpg" /></h1>
+						<h2 class="title-cotiza"><img src="{path}images/numero-cotiza.jpg"></h2>	
+					{if:(PAGE_PRODUCT)}
+					<!-- Logo -->
+							<p class="description_h1">{description_page}.</p>
+					{if:end}					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a class="icon icon-home active" href="{path}"><span>Inicio</span></a></li>
+								<li>
+									<a href="" class="icon icon-shopping-cart"><span>Productos</span></a>
+									<ul>
+										<li><a href="{path}producto/kit-alambrico">Kit Alámbrico</a></li>
+										<li><a href="#">Kit Inalámbrico</a>
+											<ul>
+												<li><a href="{path}producto/kit-inalambrico">Kit Inalámbrico</a></li>
+												<li><a href="{path}producto/sat-box">Sat Box</a></li>
+												<li><a href="{path}producto/b-sat">B.Sat</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Proyectos Especiales</a>
+											<ul>
+												<li><a href="{path}producto/cctv">CCTV</a></li>
+												<li><a href="{path}producto/cerco-electrico">Cerco Electrico</a></li>
+												<li><a href="{path}producto/camaras">Cámaras</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a class="icon icon-cog" href="{path}articulo/empresa"><span>Empresa</span></a></li>
+								<li>
+									<a class="icon icon-lock" href="{path}articulo/expertos"><span>Expertos Seguridad</span>
+									</a>
+									<ul>
+										{foreach:navbar-article}
+										<li><a href="{path}articulo/{url}">{title}</a></li>
+										{foreach:end}
+									</ul>
+								</li>
+								<li>
+									<a class="icon icon-signin" href="#"><span>Ingreso a Clientes</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+				</div>
+		</div>
+
+		{BODY}
+
+			<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+
+				<!-- Footer -->
+					<div id="footer" class="container">
+						<header>
+							<h2>¿Tienes Preguntas? <strong>Contactanos:</strong></h2>
+						</header>
+						<div class="row">
+							<div class="6u">
+								<section>
+									<form method="post" action="#">
+										<div class="row half">
+											<div class="6u">
+												<input name="name" placeholder="Nombre" type="text" class="text" />
+											</div>
+											<div class="6u">
+												<input name="email" placeholder="Correo Electronico" type="text" class="text" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" placeholder="Mensaje"></textarea>
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<a href="#" class="button button-icon icon icon-envelope">Enviar Mensaje</a>
+											</div>
+										</div>
+									</form>
+								</section>
+							</div>
+							<div class="6u">
+								<section>
+									<p>Si tiene alguna consulta y/o sugerencia sobre Security Sat, acceda desde aquí para contactarse con el área respectiva.</p>
+									<div class="row">
+										<ul class="icons 6u">
+											<li class="icon icon-home">
+												Av. Las Condes 7300<br />
+												Región Metropolitana,<br />
+												Chile
+											</li>
+											<li class="icon icon-phone">
+												(56 - 2) 4121300 | 600 600 5100
+											</li>
+											<li class="icon icon-envelope">
+												<a href="#">info@untitled.tld</a>
+											</li>
+										</ul>
+										<ul class="icons 6u">
+											<li class="icon icon-twitter">
+												<a href="http://twitter.com/n33co">@untitled-tld</a>
+											</li>
+											<li class="icon icon-dribbble">
+												<a href="http://dribbble.com/n33">dribbble.com/untitled-tld</a>
+											</li>
+											<li class="icon icon-facebook">
+												<a href="#">facebook.com/untitled-tld</a>
+											</li>
+											<li class="icon icon-google-plus">
+												<a href="#">google.com/+untitled-tld</a>
+											</li>
+										</ul>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; Security SAT. Todos los derechos reservados</li>
+							<li>&copy; Santiago, Chile, 2014</li>
+						</ul>
+					</div>
+
+			</div>
+	</body>
+	{JSLOADER}
+</html>

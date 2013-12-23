@@ -1,0 +1,26 @@
+{foreach:article}
+<!-- Main Wrapper -->
+<div id="main-wrapper" class="article">
+
+	<!-- Main -->
+		<div id="main" class="container">
+			<div class="row">
+			
+				<!-- Content -->
+					<div id="content" class="12u skel-cell-mainContent">
+
+						<!-- Post -->
+							<article class="is-post product">
+								<header>
+									<h2 class="center">{title}</h2>
+								</header>
+								<span class="image image-full"><img src="{path}images/{image}" alt="" /></span>
+
+								<p>{text}</p>
+							 </article>	
+					</div>
+					
+			</div>
+		</div>
+</div>
+{foreach:end}

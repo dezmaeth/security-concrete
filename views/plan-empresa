@@ -1,0 +1,35 @@
+<!-- Main Wrapper -->
+			<div id="main-wrapper">
+
+				<!-- Main -->
+					<div id="main" class="container">
+						<div class="row">
+						
+							<!-- Content -->
+								<div id="content" class="12u skel-cell-mainContent">
+
+									<!-- Post -->
+										<article class="is-post product">
+											<header>
+												<h2 class="center">Alarmas de Seguridad <strong>para Empresas</strong></h2>
+											</header>
+											<span class="image image-full"><img src="{path}images/planesempresa.jpg" alt="" /></span>
+											<p>Cada negocio tiene necesidades de seguridad únicas y por eso ponemos a su                                            disposición un asesor que le ayudará a escoger el mejor plan para proteger su empresa.                                            </p>
+											<p>Entregamos un servicio integral de seguridad para resguardar su empresa las 24                                            horas del día los 365 días del año. Ponemos a su disposición lo último en tecnología                                            así como el más completo servicio de seguridad diseñado especialmente para cubrir sus                                            necesidades.</p></br></br>
+                                            <h3>Plan Security Empresas</h3>
+                                            <p>Cada negocio tiene necesidades de seguridad únicas y por eso ponemos a su                                              disposición un asesor que le ayudará a escoger el mejor plan para proteger su                                               empresa.</p>
+                                            <p>Este plan ha sido escogido por varios de nuestros clientes para proteger locales                                            comerciales, oficinas y bodegas.</p></br></br>
+                                            
+                                            <div>
+                                            <ul class="actions cotiza">
+											<li><a href="#" class="button button-icon icon icon-file">Cotiza por tu plan</a></li>
+											</ul></div></br>
+                                            
+										 </article>
+								
+								</div>
+								
+						</div>
+					</div>
+
+			</div>

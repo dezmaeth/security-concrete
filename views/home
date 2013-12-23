@@ -1,0 +1,145 @@
+		{modal_admin_user}
+		{modal_admin_login}
+		{modal_admin_product}
+		{modal_admin_slide}
+		{modal_admin_article}
+        
+        
+        
+<!-- Banner Wrapper -->
+			<div id="banner-wrapper">
+				<div class="inner">
+
+					<!-- Banner -->
+						<section id="banner" class="container slides">
+							<p>Seguridad <strong> Familia y Hogar</strong>.<br />
+							</p>
+						</section>
+
+				</div>
+			</div>        
+
+	<!-- Features Wrapper -->
+			<div id="features-wrapper">
+
+				<!-- Features -->
+					<section id="features" class="container">
+						<header>
+							<h2 class="center">Seguridad primero en <strong>Hogar y Empresa</strong></h2>
+						</header>
+						<div class="row">
+							{foreach:featured}
+							<div class="4u">
+								<!-- Featured -->
+									<section class="article">
+										<a href="{path}articulo/hogar" class="image image-full"><img src="images/hogar.jpg" alt="" /></a>
+										<header>
+											<h3><img src="{path}images/flecha.png" alt="" />HOGAR</h3>
+										</header>
+										<p>Ponemos a su disposición un servicio de seguridad integral y profesionales de vasta experiencia cuya asesoría le permitirá escoger el plan que mejor se ajuste a las necesidades de seguridad de su familia.</p>
+									</section>
+
+							</div>
+							{foreach:end}
+							<div class="4u">
+
+								<!-- Featured -->
+									<section class="article">
+										<a href="{path}articulo/plan-empresa" class="image image-full"><img src="images/empresa.jpg" alt="" /></a>
+										<header>
+											<h3><img src="{path}images/flecha.png" alt="" />EMPRESA</h3>
+										</header>
+										<p>Cada negocio tiene necesidades de seguridad únicas y por eso ponemos a su disposición un asesor que le ayudará a escoger el mejor plan para proteger su empresa.</p>
+									</section>
+									
+							</div>
+							<div class="4u">
+
+								<!-- Featured -->
+									<section class="article">
+										<a href="{path}articulo/consejos" class="image image-full"><img src="images/soporte.jpg" alt="" /></a>
+										<header>
+											<h3><img src="{path}images/flecha.png" alt="" />CONSEJOS DE SEGURIDAD</h3>
+										</header>
+										<p>Conversemos sobre seguridad y apliquemos simples hábitos que nos permitirán estar cada día más protegidos. Los invitamos a ser socios en la protección se su hogar.</p>
+									</section>
+
+							</div>
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+
+				<!-- Main -->
+					<div id="main" class="container">
+						<div class="row">
+						
+							<!-- Content -->
+								<div id="content" class="8u">
+									{foreach:highlighted}
+									<!-- Post -->
+										<article class="is-post article" id="{id}">
+											<header>
+												<h2><a href="{path}articulo/{url}">{title}</a></h2>
+											</header>
+											<a href="{path}articulo/{url}" class="image image-full"><img src="{path}images/{image}" alt="" /></a>
+											<p>{resume}</p>
+											<p><a href="{path}articulo/{url}" class="button button-icon icon icon-file">Continuar Leyendo</a></p>
+										</article>
+									{foreach:end}
+								
+								</div>
+								
+							<!-- Sidebar -->
+								<div id="sidebar" class="4u">
+								
+									<!-- Excerpts -->
+										<section>
+											<ul class="divided">
+												{foreach:sidebar}
+												<li>
+													<!-- Excerpt -->
+														<article class="is-excerpt article" id="{id}">
+															<header>
+																<h3 class="flecha">{title}</h3>
+															</header>
+															<p>{resume}</p>
+														</article>
+												</li>
+												{foreach:end}
+											</ul>
+										</section>
+								
+									<!-- Highlights 
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Highlight 
+
+														<article class="is-highlight article">
+															<header>
+																<h3><a href="{path}articulo/hogar">Productos y Servicios para empresa y hogar</a></h3>
+															</header>
+															<a href="{path}articulo/hogar" class="image image-left"><img src="images/pic06.jpg" alt="" /></a>
+															<p>Cada hogar y negocio tiene necesidades de seguridad únicas y por                                                              eso ponemos a su disposición un asesor que le ayudará a escoger el                                                              mejor plan para proteger su empresa.
+                                                              Entregamos un servicio integral de seguridad para resguardar su                                                              empresa las 24 horas del día los 365 días del año. Ponemos a su                                                              disposición lo último en tecnología así como el más completo                                                              servicio de seguridad diseñado especialmente para cubrir sus                                                               necesidades</p>
+															<ul class="actions">
+																<li><a href="{path}articulo/hogar" class="button button-icon icon icon-file">Mas informac&iacute;on</a></li>
+															</ul>
+														</article>
+													
+												</li>
+												
+											</ul>
+										</section>
+									-->
+								</div>
+
+						</div>
+					</div>
+
+			</div>
